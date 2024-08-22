@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.habit-tracker {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #A57C55;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.status {
+    cursor: pointer;
+}
+
+.add-habit {
+    color: #A57C55;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Added CSS classes for the colors */
+.green {
+    background-color: #4CAF50; /* Green */
+}
+
+.amber {
+    background-color: #FFC107; /* Amber */
+}
+
+.red {
+    background-color: #F44336; /* Red */
+}
